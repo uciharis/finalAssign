@@ -1,0 +1,21 @@
+.header {
+    border: 1px solid black;
+    margin: 4rem;
+}
+
+.konten {
+    display: grid;
+    border: 1px solid blue;
+    margin: 3rem;
+    padding: 2rem;
+}
+.b {
+    border: 3px solid orange;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.footer {
+    border: 1px solid green;
+    margin: 2rem;
+}
