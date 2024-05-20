@@ -17,6 +17,7 @@
 .b {
     border: 0.2rem solid orange;
     padding: 1rem;
+    margin: 0.3rem;
     box-sizing: border-box;
 }
 
