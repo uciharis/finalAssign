@@ -11,7 +11,9 @@
 
 .konten {
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 0.6rem;
     border: 0.2rem solid blue;
     padding: 1rem;
 }
@@ -20,6 +22,7 @@
     padding: 1rem;
     margin: 0.3rem;
     box-sizing: border-box;
+    order: 4;
 }
 
 .footer {
