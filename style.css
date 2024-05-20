@@ -1,31 +1,28 @@
 .header {
     display: flex;
     border: 0.2rem solid black;
-    margin: 4rem;
+    margin-bottom: 2rem;
 }
 .a {
     border: 0.2rem solid yellow ;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem 0;
     box-sizing: border-box;
 }
 
 .konten {
     display: grid;
     border: 0.2rem solid blue;
-    margin: 1rem;
     padding: 1rem;
 }
 .b {
     border: 0.2rem solid orange;
-    margin: 1rem;
     padding: 1rem;
     box-sizing: border-box;
 }
 
 .footer {
     border: 0.2rem solid green;
-    margin: 1rem;
-    padding: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
