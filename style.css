@@ -1,34 +1,19 @@
-.header {
-    display: flex;
+body {
+    padding: 10rem;
+}
+
+.container {
     border: 0.2rem solid black;
-    margin-bottom: 2rem;
-}
-.a {
-    border: 0.2rem solid yellow ;
-    margin: 2rem 0;
-    box-sizing: border-box;
-}
-
-.konten {
-    width: 60%;
+    padding: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.5rem 0.6rem;
-    border: 0.2rem solid blue;
-    padding: 1rem;
-}
-.b {
-    border: 0.2rem solid orange;
-    padding: 1rem;
-    margin: 0.3rem;
-    box-sizing: border-box;
-    order: 4;
+    gap: 2rem;
 }
 
-.footer {
+aside {
+    border: 0.2rem solid yellow;
+}
+
+.main {
     border: 0.2rem solid green;
-    margin-top: 2rem;
-    padding: 0.5rem;
-    box-sizing: border-box;
+    flex: 1;
 }
