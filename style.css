@@ -1,3 +1,8 @@
+:root {
+    --bayangan: 0px 0px 10px 4px rgba(0,0,0,0.11);
+    --edge: 8px;
+}
+
 body {
     padding: 10rem;
 }
@@ -13,7 +18,14 @@ aside {
     border: 0.2rem solid yellow;
 }
 
-.main {
+main {
     border: 0.2rem solid green;
     flex: 1;
+    nav{
+        border: 0.2rem solid blue;
+    }
+
+    nav>*{
+        border-radius: var(--edge);
+    }
 }
